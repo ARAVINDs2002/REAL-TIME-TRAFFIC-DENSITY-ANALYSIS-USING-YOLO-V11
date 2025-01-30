@@ -16,7 +16,17 @@ This project implements a real-time traffic analysis system using the YOLOv11 ob
 - **Excel Logging**: Saves traffic analysis data to an Excel file for further analysis.
 
 ## Requirements
-- Python 3.7 or higher
-- Required libraries:
-  ```bash
-  pip install opencv-python numpy ultralytics pandas scikit-learn
+-opencv-python 
+-numpy
+-ultralytics
+-pandas
+-scikit-learn
+# news
+Eventhough we focus on implemeting the project using yolo v11 there are 3 model including v8n and v5n.
+## Usage
+-There are 2 files 
+-one_way_draw
+-two_way_static
+Both aim to find the traffic density but each uses different environmental changes  
+-one way draw is for traffic analysisi in one way only not two way or multi lanes.
+-two way static aim to make use of a predefined Aoi for traffic estimation and user cannot change the aoi on thir own unlike one way draw.
