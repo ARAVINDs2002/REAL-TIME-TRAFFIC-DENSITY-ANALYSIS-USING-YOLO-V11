@@ -44,16 +44,27 @@ This project implements a real-time traffic analysis system using the YOLOv11 ob
 
 # news
 Eventhough we focus on implemeting the project using yolo v11 there are 3 model including v8n and v5n.
-## Usage
--There are 2 files 
+# Usage
 
--one_way_draw
+## There are 2 files:
 
--two_way_static
+- **one_way_draw**
+- **two_way_static**
 
-Both aim to find the traffic density but each uses different environmental changes  
+Both files aim to find traffic density, but each uses different environmental conditions.
 
--one way draw is for traffic analysisi in one way only not two way or multi lanes.
+- **one_way_draw** is designed for traffic analysis in one direction only, not for two-way or multi-lane scenarios.
+- **two_way_static** utilizes a predefined Area of Interest (AOI) for traffic estimation, and users cannot change the AOI on their own, unlike in **one_way_draw**.
 
--two way static aim to make use of a predefined Aoi for traffic estimation and user cannot change the aoi on thir own unlike one way draw.
-# THANKYOU for testing
+## Instructions
+
+To use the files, simply run the `one_way_draw.ipynb` or `two_way_static.ipynb` file in Jupyter Notebook or any IDE.
+
+- If you are using Jupyter Notebook, download the entire folder to your `ThisPC -> Users` directory. That's all you need to do.
+- If you are using IDEs such as VSCode, download the file and open the `.ipynb` file. Copy and paste the entire content into a new `.py` file, and then run the following command in the IDE terminal or command prompt:
+
+    ```bash
+    python yourappname.py
+    ```
+
+Thank you for your time, and have a great day!
