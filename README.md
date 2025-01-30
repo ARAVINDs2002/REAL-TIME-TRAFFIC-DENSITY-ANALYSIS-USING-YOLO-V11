@@ -1,4 +1,4 @@
-# Traffic Analysis Using YOLOv8
+# Traffic Analysis Using YOLOv11
 
 ## Overview
 This project implements a real-time traffic analysis system using the YOLOv11 object detection model. It processes video frames to detect vehicles, evaluates traffic intensity, and logs the results. The system allows users to define an Area of Interest (AOI) for vehicle counting and provides metrics for performance evaluation.
