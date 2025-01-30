@@ -30,8 +30,15 @@ This project implements a real-time traffic analysis system using the YOLOv11 ob
 
 ![FRAME 4](output/f4.jpg)
 ## How To Draw AOI of Your Choice?
-## note-drawing own AOI is possible only on one_way_draw.ipnb
+
+## This is the Results of One_way_draw.ipnb where the AOI can be drawn to analyse traffic for only one way (one way roads)
+     
 ![video results](output/gif.gif)
+
+## Results of Two_way_Static.ipnb where the AOI is fixed and can be used to analyse traffic for both the lanes(Two way roads)
+
+![FRAME 4](output/2waydraw.gif)
+
 ## Requirements
 -opencv-python 
 
