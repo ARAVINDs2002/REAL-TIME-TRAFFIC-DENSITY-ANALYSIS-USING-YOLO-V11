@@ -22,7 +22,7 @@ This project implements a real-time traffic analysis system using the YOLOv11 ob
   
 - **Excel Logging**: Saves traffic analysis data to an Excel file for further analysis.
 ## These are  some Frame level results extracted from the Processed frames folder
-![FRAME 1](\output\f1.jpg)
+![FRAME 1](output/f1.jpg)
 
 ## Requirements
 -opencv-python 
