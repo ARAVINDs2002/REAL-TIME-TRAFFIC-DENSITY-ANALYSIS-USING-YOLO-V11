@@ -30,6 +30,7 @@ This project implements a real-time traffic analysis system using the YOLOv11 ob
 
 ![FRAME 4](output/f4.jpg)
 ## How To Draw AOI of Your Choice?
+##note-drawing own AOI is possible only on one_way_draw.ipnb
 ![video results](output/gif.gif)
 ## Requirements
 -opencv-python 
