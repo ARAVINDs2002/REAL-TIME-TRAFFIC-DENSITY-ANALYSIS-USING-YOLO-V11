@@ -52,7 +52,7 @@ This project implements a real-time traffic analysis system using the YOLOv11 ob
 -scikit-learn
 
 # news
-Eventhough we focus on implemeting the project using yolo v11 there are 3 model including v8n and v5n.
+Eventhough i focused on implemeting the project using yolo v11 there are 3 model including v8n and v5n.
 # Usage
 
 ## There are 2 files:
